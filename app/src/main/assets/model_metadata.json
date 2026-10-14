@@ -1,0 +1,55 @@
+{
+  "vision_model": {
+    "repository": "NAKSTStudio/yolov8m-chess-piece-detection",
+    "source_url": "https://huggingface.co/NAKSTStudio/yolov8m-chess-piece-detection/resolve/3b2c734aeade4646ea313da333ee670a4869c46f/best_f16.tflite",
+    "commit_sha": "3b2c734aeade4646ea313da333ee670a4869c46f",
+    "last_modified": "2025-11-10T06:05:14.000Z",
+    "asset_file": "best_f16.tflite",
+    "size_bytes": 51884986,
+    "sha256": "2bfabe22f91266a2308a7df29c2a22afbbdb537fb2040ef8c93f6ed4fc144033",
+    "license": "AGPL-3.0",
+    "input_tensor": {
+      "index": 0,
+      "name": "images",
+      "shape": [1, 640, 640, 3],
+      "dtype": "FLOAT32",
+      "color_order": "RGB",
+      "normalization": "0.0..1.0",
+      "letterbox_pad_rgb": [114, 114, 114]
+    },
+    "output_tensor": {
+      "index": 685,
+      "name": "Identity",
+      "shape": [1, 17, 8400],
+      "dtype": "FLOAT32",
+      "format": "[cx, cy, w, h, class_0..class_12] normalized 0..1 across 8400 anchors"
+    },
+    "classes": {
+      "0": "board",
+      "1": "white_king",
+      "2": "white_queen",
+      "3": "white_rook",
+      "4": "white_bishop",
+      "5": "white_knight",
+      "6": "white_pawn",
+      "7": "black_king",
+      "8": "black_queen",
+      "9": "black_rook",
+      "10": "black_bishop",
+      "11": "black_knight",
+      "12": "black_pawn"
+    }
+  },
+  "chess_engine": {
+    "name": "Stockfish 18",
+    "tag": "sf_18",
+    "source_url": "https://github.com/official-stockfish/Stockfish/releases/tag/sf_18",
+    "binary_asset": "libstockfish.so (stockfish-android-armv8)",
+    "size_bytes": 114114856,
+    "sha256": "cc3b3b74466b6d85cdc0f8cfdad4111c6a44bd0698f4eab96fea7b359a54d3d4",
+    "embedded_nnue_big": "nn-c288c895ea92.nnue",
+    "embedded_nnue_small": "nn-37f18f62d772.nnue",
+    "ndk_version": "r27c (API 29, build 12479018)",
+    "license": "GPL-3.0-or-later"
+  }
+}

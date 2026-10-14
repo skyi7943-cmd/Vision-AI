@@ -1,0 +1,6 @@
+{
+  "name": "ChessVisionTrainer",
+  "description": "Offline on-device chess board vision recognition and Stockfish 18 training assistant with floating move arrow overlay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

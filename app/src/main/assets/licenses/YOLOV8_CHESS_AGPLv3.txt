@@ -1,0 +1,18 @@
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
+
+Model: NAKSTStudio/yolov8m-chess-piece-detection (best_f16.tflite)
+Author: NAKST Studio
+Source URL: https://huggingface.co/NAKSTStudio/yolov8m-chess-piece-detection
+Revision / Commit SHA: 3b2c734aeade4646ea313da333ee670a4869c46f
+File: best_f16.tflite
+Size: 51,884,986 bytes
+SHA-256: 2bfabe22f91266a2308a7df29c2a22afbbdb537fb2040ef8c93f6ed4fc144033
+License: AGPL-3.0
+
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+Everyone is permitted to copy and distribute verbatim copies of this license document,
+but changing it is not allowed.
+
+This model is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+Full license terms: https://www.gnu.org/licenses/agpl-3.0.txt

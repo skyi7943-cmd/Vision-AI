@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Vision corner brackets inside 66dp safe zone (21..87) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M24,33L24,24L33,24L33,27L27,27L27,33Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M84,33L84,24L75,24L75,27L81,27L81,33Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M24,75L24,84L33,84L33,81L27,81L27,75Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M84,75L84,84L75,84L75,81L81,81L81,75Z" />
+
+    <!-- Bold filled golden Chess Knight silhouette centered in safe zone -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M36,74L72,74L74,79L34,79ZM39,71L41,57C41,52 45,48 49,46L46,43L37,46L34,41L41,32L44,26L50,29C56,28 63,31 66,38C69,44 69,55 67,71Z" />
+    <!-- Knight eye & arrow accent -->
+    <path
+        android:fillColor="#0B132B"
+        android:pathData="M46,35A2,2 0 1,1 46,39A2,2 0 1,1 46,35Z" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M56,58L68,46L63,46L63,43L73,43L73,53L70,53L70,48L58,60Z" />
+</vector>

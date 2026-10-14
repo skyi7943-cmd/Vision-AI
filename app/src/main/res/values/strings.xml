@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ChessVisionTrainer</string>
+    <string name="subtitle_offline_trainer">离线国际象棋视觉识别与 Stockfish 18 训练辅助</string>
+    <string name="status_section_title">系统组件状态</string>
+    <string name="perf_section_title">性能档位</string>
+    <string name="side_section_title">执棋颜色与棋盘方向</string>
+    <string name="state_confirm_section_title">局面状态确认 (FEN 补全与同步)</string>
+    <string name="calibration_section_title">棋盘区域校准</string>
+    <string name="last_analysis_section_title">最近一次分析结果</string>
+    <string name="licenses_section_title">模型、引擎与开源许可</string>
+    <string name="btn_one_click_start">一键启动</string>
+    <string name="btn_stop_all">全部停止</string>
+    <string name="btn_manual_calibrate">在游戏界面校准棋盘</string>
+    <string name="btn_resync_state">重新同步局面</string>
+    <string name="notification_channel_name">棋盘屏幕捕捉与悬浮辅助服务</string>
+    <string name="notification_title">ChessVisionTrainer 运行中</string>
+    <string name="notification_content">点击悬浮窗 ♟ 单次分析走法，点击 ⊞ 校准 在游戏界面对齐棋盘</string>
+</resources>

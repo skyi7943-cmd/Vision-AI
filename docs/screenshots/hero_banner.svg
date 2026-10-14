@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B131E"/>
+      <stop offset="50%" stop-color="#102538"/>
+      <stop offset="100%" stop-color="#0F2E28"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="380" rx="24" fill="url(#bgGrad)"/>
+  <rect x="2" y="2" width="1196" height="376" rx="22" fill="none" stroke="#1E3A5F" stroke-width="2"/>
+
+  <!-- Mini Decorative Chessboard & Arrow on Right -->
+  <g transform="translate(830, 46)">
+    <rect x="-8" y="-8" width="296" height="296" rx="16" fill="#0F172A" stroke="#34D399" stroke-width="2.5"/>
+    <!-- 4x4 stylized preview squares -->
+    <rect x="0" y="0" width="70" height="70" fill="#EBECD0"/>
+    <rect x="70" y="0" width="70" height="70" fill="#739552"/>
+    <rect x="140" y="0" width="70" height="70" fill="#EBECD0"/>
+    <rect x="210" y="0" width="70" height="70" fill="#739552"/>
+
+    <rect x="0" y="70" width="70" height="70" fill="#739552"/>
+    <rect x="70" y="70" width="70" height="70" fill="#EBECD0"/>
+    <rect x="140" y="70" width="70" height="70" fill="#739552"/>
+    <rect x="210" y="70" width="70" height="70" fill="#EBECD0"/>
+
+    <rect x="0" y="140" width="70" height="70" fill="#EBECD0"/>
+    <rect x="70" y="140" width="70" height="70" fill="#739552"/>
+    <rect x="140" y="140" width="70" height="70" fill="#EBECD0"/>
+    <rect x="210" y="140" width="70" height="70" fill="#739552"/>
+
+    <rect x="0" y="210" width="70" height="70" fill="#739552"/>
+    <rect x="70" y="210" width="70" height="70" fill="#EBECD0"/>
+    <rect x="140" y="210" width="70" height="70" fill="#739552"/>
+    <rect x="210" y="210" width="70" height="70" fill="#EBECD0"/>
+
+    <!-- YOLO Bounding boxes -->
+    <rect x="8" y="8" width="54" height="54" rx="6" fill="none" stroke="#38BDF8" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="148" y="148" width="54" height="54" rx="6" fill="none" stroke="#34D399" stroke-width="2.5"/>
+    <text x="35" y="48" font-family="sans-serif" font-size="38" text-anchor="middle" fill="#1E293B">♜</text>
+    <text x="175" y="48" font-family="sans-serif" font-size="38" text-anchor="middle" fill="#1E293B">♚</text>
+    <text x="175" y="188" font-family="sans-serif" font-size="38" text-anchor="middle" fill="#0F172A">♞</text>
+    <text x="105" y="258" font-family="sans-serif" font-size="38" text-anchor="middle" fill="#0F172A">♕</text>
+
+    <!-- Best Move Arrow -->
+    <line x1="175" y1="175" x2="112" y2="92" stroke="#064E3B" stroke-width="14" stroke-linecap="round"/>
+    <line x1="175" y1="175" x2="112" y2="92" stroke="#10B981" stroke-width="9" stroke-linecap="round"/>
+    <polygon points="105,78 130,90 108,108" fill="#10B981" stroke="#064E3B" stroke-width="2"/>
+    <circle cx="175" cy="175" r="8" fill="#34D399" stroke="#064E3B" stroke-width="2"/>
+
+    <!-- Floating Capsule Mock -->
+    <g transform="translate(238, 92)">
+      <rect x="0" y="0" width="66" height="106" rx="18" fill="#101820" stroke="#34D399" stroke-width="2"/>
+      <circle cx="33" cy="34" r="24" fill="#182C3C" stroke="#34D399" stroke-width="2"/>
+      <text x="33" y="43" font-family="sans-serif" font-size="26" text-anchor="middle" fill="#FFFFFF">♟</text>
+      <rect x="8" y="68" width="50" height="26" rx="10" fill="#065F46"/>
+      <text x="33" y="85" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#A7F3D0">⊞ 已校</text>
+    </g>
+  </g>
+
+  <!-- Left Content -->
+  <g transform="translate(56, 68)">
+    <rect x="0" y="0" width="248" height="32" rx="16" fill="#064E3B" stroke="#10B981" stroke-width="1.5"/>
+    <text x="124" y="21" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#6EE7B7">100% OFFLINE ANDROID ARM64</text>
+
+    <text x="0" y="84" font-family="sans-serif" font-size="48" font-weight="bold" fill="#F8FAFC">ChessVisionTrainer</text>
+    <text x="0" y="124" font-family="sans-serif" font-size="22" font-weight="bold" fill="#34D399">原生离线国际象棋视觉训练与残局分析辅助工具</text>
+    <text x="0" y="156" font-family="sans-serif" font-size="17" fill="#94A3B8">On-Device YOLOv8m Piece Detection + Stockfish 18 NNUE + In-Game Overlay Calibration</text>
+
+    <!-- Pipeline Pills -->
+    <g transform="translate(0, 192)">
+      <rect x="0" y="0" width="136" height="44" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1.5"/>
+      <text x="68" y="20" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#38BDF8">MediaProjection</text>
+      <text x="68" y="36" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#94A3B8">内存单帧屏幕捕捉</text>
+
+      <text x="150" y="27" font-family="sans-serif" font-size="18" font-weight="bold" fill="#64748B">→</text>
+
+      <rect x="168" y="0" width="144" height="44" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1.5"/>
+      <text x="240" y="20" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#34D399">YOLOv8m TFLite</text>
+      <text x="240" y="36" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#94A3B8">棋盘与12类棋子识别</text>
+
+      <text x="326" y="27" font-family="sans-serif" font-size="18" font-weight="bold" fill="#64748B">→</text>
+
+      <rect x="344" y="0" width="136" height="44" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1.5"/>
+      <text x="412" y="20" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#FBBF24">FEN Validator</text>
+      <text x="412" y="36" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#94A3B8">局面恢复与合法校验</text>
+
+      <text x="494" y="27" font-family="sans-serif" font-size="18" font-weight="bold" fill="#64748B">→</text>
+
+      <rect x="512" y="0" width="160" height="44" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1.5"/>
+      <text x="592" y="20" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#A78BFA">Stockfish 18 NNUE</text>
+      <text x="592" y="36" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#94A3B8">本地引擎最佳走法箭头</text>
+    </g>
+
+    <text x="0" y="272" font-family="sans-serif" font-size="13" fill="#64748B">✓ 无 INTERNET 权限 (Zero Network)   ✓ 游戏内悬浮窗实时校准 (In-Game 8×8 Calibration)   ✓ 不模拟点击 / 纯视觉辅助</text>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Large >50MB binaries are stored as <20MB compressed chunks in /offline_blobs/
+# so GitHub Sync ("Create new repository") never hits GitHub's 100MB single-file limit.
+# Gradle preBuild automatically reconstructs both files offline from /offline_blobs/.
+/app/src/main/jniLibs/arm64-v8a/libstockfish.so
+/app/src/main/assets/best_f16.tflite

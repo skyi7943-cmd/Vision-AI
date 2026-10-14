@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 860" width="100%" height="100%">
+  <!-- Phone Frame -->
+  <rect x="6" y="6" width="408" height="848" rx="42" fill="#0B0F17" stroke="#334155" stroke-width="4"/>
+  <rect x="18" y="18" width="384" height="824" rx="32" fill="#262522"/>
+
+  <!-- Top Opponent Bar (Chess.com style portrait layout) -->
+  <rect x="18" y="56" width="384" height="170" fill="#262522"/>
+  <rect x="34" y="164" width="44" height="44" rx="8" fill="#3C3A36"/>
+  <text x="56" y="194" font-family="sans-serif" font-size="26" text-anchor="middle" fill="#F8FAFC">🤖</text>
+  <text x="90" y="184" font-family="sans-serif" font-size="15" font-weight="bold" fill="#F8FAFC">Hikaru Bot (2850)</text>
+  <rect x="90" y="194" width="180" height="22" rx="6" fill="#363431"/>
+  <text x="102" y="210" font-family="sans-serif" font-size="12" fill="#E2E8F0">轮到你走棋 · 点击 ♟ 分析</text>
+
+  <!-- Full-Width 8x8 Chessboard (x=18..402, width=384, square=48, y=246..630) -->
+  <g transform="translate(18, 246)">
+    <!-- Row 0 (Rank 8) -->
+    <rect x="0" y="0" width="48" height="48" fill="#EBECD0"/><rect x="48" y="0" width="48" height="48" fill="#739552"/><rect x="96" y="0" width="48" height="48" fill="#EBECD0"/><rect x="144" y="0" width="48" height="48" fill="#739552"/><rect x="192" y="0" width="48" height="48" fill="#EBECD0"/><rect x="240" y="0" width="48" height="48" fill="#739552"/><rect x="288" y="0" width="48" height="48" fill="#EBECD0"/><rect x="336" y="0" width="48" height="48" fill="#739552"/>
+    <!-- Row 1 (Rank 7) -->
+    <rect x="0" y="48" width="48" height="48" fill="#739552"/><rect x="48" y="48" width="48" height="48" fill="#EBECD0"/><rect x="96" y="48" width="48" height="48" fill="#739552"/><rect x="144" y="48" width="48" height="48" fill="#EBECD0"/><rect x="192" y="48" width="48" height="48" fill="#739552"/><rect x="240" y="48" width="48" height="48" fill="#EBECD0"/><rect x="288" y="48" width="48" height="48" fill="#739552"/><rect x="336" y="48" width="48" height="48" fill="#EBECD0"/>
+    <!-- Row 2 (Rank 6) -->
+    <rect x="0" y="96" width="48" height="48" fill="#EBECD0"/><rect x="48" y="96" width="48" height="48" fill="#739552"/><rect x="96" y="96" width="48" height="48" fill="#EBECD0"/><rect x="144" y="96" width="48" height="48" fill="#739552"/><rect x="192" y="96" width="48" height="48" fill="#EBECD0"/><rect x="240" y="96" width="48" height="48" fill="#739552"/><rect x="288" y="96" width="48" height="48" fill="#EBECD0"/><rect x="336" y="96" width="48" height="48" fill="#739552"/>
+    <!-- Row 3 (Rank 5) -->
+    <rect x="0" y="144" width="48" height="48" fill="#739552"/><rect x="48" y="144" width="48" height="48" fill="#EBECD0"/><rect x="96" y="144" width="48" height="48" fill="#739552"/><rect x="144" y="144" width="48" height="48" fill="#EBECD0"/><rect x="192" y="144" width="48" height="48" fill="#739552"/><rect x="240" y="144" width="48" height="48" fill="#EBECD0"/><rect x="288" y="144" width="48" height="48" fill="#739552"/><rect x="336" y="144" width="48" height="48" fill="#EBECD0"/>
+    <!-- Row 4 (Rank 4) -->
+    <rect x="0" y="192" width="48" height="48" fill="#EBECD0"/><rect x="48" y="192" width="48" height="48" fill="#739552"/><rect x="96" y="192" width="48" height="48" fill="#EBECD0"/><rect x="144" y="192" width="48" height="48" fill="#739552"/><rect x="192" y="192" width="48" height="48" fill="#EBECD0"/><rect x="240" y="192" width="48" height="48" fill="#739552"/><rect x="288" y="192" width="48" height="48" fill="#EBECD0"/><rect x="336" y="192" width="48" height="48" fill="#739552"/>
+    <!-- Row 5 (Rank 3) -->
+    <rect x="0" y="240" width="48" height="48" fill="#739552"/><rect x="48" y="240" width="48" height="48" fill="#EBECD0"/><rect x="96" y="240" width="48" height="48" fill="#739552"/><rect x="144" y="240" width="48" height="48" fill="#EBECD0"/><rect x="192" y="240" width="48" height="48" fill="#739552"/><rect x="240" y="240" width="48" height="48" fill="#EBECD0"/><rect x="288" y="240" width="48" height="48" fill="#739552"/><rect x="336" y="240" width="48" height="48" fill="#EBECD0"/>
+    <!-- Row 6 (Rank 2) -->
+    <rect x="0" y="288" width="48" height="48" fill="#EBECD0"/><rect x="48" y="288" width="48" height="48" fill="#739552"/><rect x="96" y="288" width="48" height="48" fill="#EBECD0"/><rect x="144" y="288" width="48" height="48" fill="#739552"/><rect x="192" y="288" width="48" height="48" fill="#EBECD0"/><rect x="240" y="288" width="48" height="48" fill="#739552"/><rect x="288" y="288" width="48" height="48" fill="#EBECD0"/><rect x="336" y="288" width="48" height="48" fill="#739552"/>
+    <!-- Row 7 (Rank 1) -->
+    <rect x="0" y="336" width="48" height="48" fill="#739552"/><rect x="48" y="336" width="48" height="48" fill="#EBECD0"/><rect x="96" y="336" width="48" height="48" fill="#739552"/><rect x="144" y="336" width="48" height="48" fill="#EBECD0"/><rect x="192" y="336" width="48" height="48" fill="#739552"/><rect x="240" y="336" width="48" height="48" fill="#EBECD0"/><rect x="288" y="336" width="48" height="48" fill="#739552"/><rect x="336" y="336" width="48" height="48" fill="#EBECD0"/>
+
+    <!-- Black Pieces -->
+    <g font-family="sans-serif" font-size="34" text-anchor="middle" fill="#1E293B">
+      <text x="24" y="36">♜</text><text x="72" y="36">♞</text><text x="120" y="36">♝</text><text x="168" y="36">♛</text><text x="216" y="36">♚</text><text x="264" y="36">♝</text><text x="312" y="36">♞</text><text x="360" y="36">♜</text>
+      <text x="24" y="84">♟</text><text x="72" y="84">♟</text><text x="120" y="84">♟</text><text x="168" y="84">♟</text><text x="216" y="84">♟</text><text x="264" y="84">♟</text><text x="312" y="84">♟</text><text x="360" y="84">♟</text>
+    </g>
+
+    <!-- White Pieces -->
+    <g font-family="sans-serif" font-size="34" text-anchor="middle" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.2">
+      <text x="24" y="324">♙</text><text x="72" y="324">♙</text><text x="120" y="324">♙</text><text x="168" y="324">♙</text><text x="216" y="324">♙</text><text x="264" y="324">♙</text><text x="312" y="324">♙</text><text x="360" y="324">♙</text>
+      <text x="24" y="372">♖</text><text x="72" y="372">♘</text><text x="120" y="372">♗</text><text x="168" y="372">♕</text><text x="216" y="372">♔</text><text x="264" y="372">♗</text><text x="312" y="372">♘</text><text x="360" y="372">♖</text>
+    </g>
+
+    <!-- Overlay Best Move Arrow (e2 -> e4: col 4, row 6 -> col 4, row 4) -->
+    <!-- Center of e2 = (216, 312), Center of e4 = (216, 216) -->
+    <line x1="216" y1="312" x2="216" y2="230" stroke="#052E16" stroke-width="14" stroke-linecap="round"/>
+    <line x1="216" y1="312" x2="216" y2="230" stroke="#10B981" stroke-width="9" stroke-linecap="round"/>
+    <polygon points="216,204 198,234 234,234" fill="#10B981" stroke="#052E16" stroke-width="2"/>
+    <circle cx="216" cy="312" r="8" fill="#34D399" stroke="#052E16" stroke-width="2"/>
+  </g>
+
+  <!-- Floating Tactical Capsule Overlay (Top-Right over Game) -->
+  <g transform="translate(320, 114)">
+    <rect x="0" y="0" width="70" height="114" rx="20" fill="#101820" fill-opacity="0.95" stroke="#34D399" stroke-width="2.5"/>
+    <circle cx="35" cy="38" r="26" fill="#182C3C" stroke="#34D399" stroke-width="2"/>
+    <text x="35" y="47" font-family="sans-serif" font-size="26" text-anchor="middle" fill="#FFFFFF">✓</text>
+    <rect x="7" y="72" width="56" height="30" rx="12" fill="#065F46"/>
+    <text x="35" y="91" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#A7F3D0">⊞ 已校</text>
+  </g>
+
+  <!-- Callout Badges -->
+  <g transform="translate(34, 650)">
+    <rect x="0" y="0" width="352" height="62" rx="14" fill="#101820" stroke="#34D399" stroke-width="1.5"/>
+    <text x="16" y="25" font-family="sans-serif" font-size="13" font-weight="bold" fill="#34D399">🎯 悬浮走法箭头已绘制：e2 → e4 (Stockfish 18 +0.38)</text>
+    <text x="16" y="46" font-family="sans-serif" font-size="11" fill="#CBD5E1">单击「♟」触发单帧识别与分析 · 点击「⊞ 已校」调整棋盘框</text>
+  </g>
+
+  <!-- Bottom Game Controls -->
+  <rect x="18" y="732" width="384" height="84" fill="#1B1A17"/>
+  <text x="68" y="778" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#94A3B8">☰ 选项</text>
+  <text x="165" y="778" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#94A3B8">💡 提示</text>
+  <text x="260" y="778" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#94A3B8">◀ 后退</text>
+  <text x="352" y="778" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#94A3B8">▶ 前进</text>
+</svg>
